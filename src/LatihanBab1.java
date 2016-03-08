@@ -38,7 +38,17 @@ class SIAM{
 public class LatihanBab1 {
    
     public static void main(String[] args) {
-        System.out.println("tess");
+        Scanner input = new Scanner(System.in);
+        SIAM sistem = new SIAM();
+        
+            System.out.println("==SISTEM INFORMASI AKADEMIK MAHASISWA==");
+            System.out.print("Masukkan Nama Mahasiswa: ");
+            sistem.nama = input.next();
+            System.out.print("Masukkan NIM           : ");
+            sistem.nim = input.next();
+            System.out.print("Masukkan Jurusan       : ");
+            sistem.jurusan = input.next();
+            sistem.setData(sistem.nama, sistem.nim,  sistem.jurusan);
         
         
     }
