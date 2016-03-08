@@ -20,10 +20,15 @@ public class MainSiam {
         System.out.print("Masukkan jurusan = ");
         ayo.jurusan= in.nextLine();
         System.out.print("Masukkan nim = ");
-        ayo.nim = in.nextInt();
+        ayo.nim = in.nextLine();
         System.out.print("Masukkan ipk = ");
         ayo.ipk= in.nextDouble();
+        System.out.println("===================");
         ayo.displayMessage();
+        System.out.println("===================");
+        ayo.jumlahSks();
+        System.out.println("===================");
+        ayo.krs();
         System.out.println("===================");
         
     }
