@@ -6,6 +6,7 @@ public class MataKuliah {
     float ip;
     int bebansks[] = new int[2];
     int sksambil = 0;
+    int banyakmatkul = 0;
     String matkul[][] = {{"PL", "Pemrograman Lanjut"},
     {"IMK", "Interaksi Manusia & Komputer"},
     {"SO", "Sistem Operasi"},
@@ -33,7 +34,7 @@ public class MataKuliah {
             bebansks[1] = 18;
         } else if (ip >= 1.50) {
             bebansks[0] = 12;
-            bebansks[1] = 25;
+            bebansks[1] = 15;
         } else {
             bebansks[0] = 0;
             bebansks[1] = 11;
@@ -42,6 +43,7 @@ public class MataKuliah {
     
     public void pilihMatkul(String kode, int i) {
             matkulambil [i] = kode;
+            banyakmatkul += 1;
         }
     }
 

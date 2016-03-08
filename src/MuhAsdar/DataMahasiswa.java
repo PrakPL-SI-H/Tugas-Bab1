@@ -23,8 +23,10 @@ public class DataMahasiswa {
     public void showKrs() {
         System.out.println("\tKaertu Rencana Studi");
         System.out.println("No  Kode   Nama Mata Kuliah\t\t SKS");
-        for (int i = 0; i < 5; i++) {
-            if (krsmhs.matkulambil[i].equalsIgnoreCase(krsmhs.matkul[i][0])) {
+        for (int i = 0; i < krsmhs.matkulambil.length; i++) {
+            if (krsmhs.banyakmatkul == i) {
+                break;
+            } else if (krsmhs.matkulambil[i].equalsIgnoreCase(krsmhs.matkul[i][0])) {
                 System.out.printf((i + 1) + "   %-7s%-30s %s\n", krsmhs.matkul[i][0], krsmhs.matkul[i][1], krsmhs.sksmatkul[i]);
             }
         }
