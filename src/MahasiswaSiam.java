@@ -1,7 +1,5 @@
-
 import java.util.Scanner;
-
-class MahasiswaSiam {
+public class MahasiswaSiam {
     private String Nama;
     private String NIM;
     private String Jurusan;
