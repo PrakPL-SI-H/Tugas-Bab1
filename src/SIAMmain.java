@@ -19,6 +19,9 @@ public class SIAMmain {
     public static void main(String[] args) {
          Scanner in=new Scanner(System.in);
        DataMahasiswa mhs=new DataMahasiswa();
+        System.out.println("--->>>>>>>>>><<<<<<<<<<---");
+        System.out.println("PROGRAM SEDERHANA SIAM UB");
+        System.out.println("==========================");
         System.out.println("Masukkan nama anda      : ");
         mhs.nama=in.next();
         System.out.println("masukkan NIM anda       : ");
@@ -30,6 +33,11 @@ public class SIAMmain {
         
         mhs.displaymessage();
         System.out.println("===========================================");
+        System.out.println(+mhs.jumlahIP());
+        
+        
+        mhs.MatKul();
+        
     }
     
 }
