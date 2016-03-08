@@ -92,17 +92,17 @@ public class SIAM {
                 + "     2.00 - 2.49	16 - 18 sks\n"
                 + "     1.50 - 1.99	12 - 15 sks\n"
                 + "     <1.50	        < 12    sks");
-        System.out.println("Masukkan Nama Mahasiswa 1       : ");
+        System.out.print("Masukkan Nama Mahasiswa 1       : ");
         mhs1.nama = in.nextLine();
-        System.out.println("Masukkan Nim Mahasiswa  1       : ");
+        System.out.print("Masukkan Nim Mahasiswa  1       : ");
         mhs1.nim = in.nextLine();
-        System.out.println("Masukkan Jurusan Mahasiswa 1    : ");
+        System.out.print("Masukkan Jurusan Mahasiswa 1    : ");
         mhs1.jurusan = in.nextLine();
-        System.out.println("Masukkan Kode Jurusan           : ");
+        System.out.print("Masukkan Kode Jurusan           : ");
         int xk = in.nextInt();
-        System.out.println("Masukkan IPK mahasiswa 1        : ");
+        System.out.print("Masukkan IPK mahasiswa 1        : ");
         int xi = in.nextInt();
-        System.out.println("Masukkan SKS mahasiswa 1 ingin  :");
+        System.out.print("Masukkan SKS mahasiswa 1 ingin  :");
         int x = in.nextInt();
         mhs1.Tampil();
         mhs1.kode(xk);
@@ -111,39 +111,42 @@ public class SIAM {
 
         System.out.println();
 
-        System.out.println("Masukkan Nama Mahasiswa 2       : ");
+        System.out.print("Masukkan Nama Mahasiswa 2       : ");
         mhs2.nama = in.next();
-        System.out.println("Masukkan Nim Mahasiswa  2       : ");
-        mhs2.nim = in.nextLine();
+        
+        String c=in.nextLine();
+        System.out.print("Masukkan Nim Mahasiswa  2       : ");
+        mhs2.nim = in.next();
         System.out.println("Masukkan Jurusan Mahasiswa 2    : ");
-        mhs2.jurusan = in.nextLine();
-        System.out.println("Masukkan Kode Jurusan           : ");
+        mhs2.jurusan = in.next();
+        System.out.print("Masukkan Kode Jurusan           : ");
         int yk = in.nextInt();
-        System.out.println("Masukkan IPK mahasiswa 2        : ");
-        mhs2.ipk = in.nextInt();
-        System.out.println("Masukkan SKS mahasiswa 2 ingin  :");
+        System.out.print("Masukkan IPK mahasiswa 2        : ");
+        int yo = in.nextInt();
+        System.out.print("Masukkan SKS mahasiswa 2 ingin  :");
         int y = in.nextInt();
         mhs2.Tampil();
         mhs2.kode(yk);
-        mhs2.ipk(xi);
-        mhs2.sks(x);
+        mhs2.ipk(yo);
+        mhs2.sks(y);
 
-        System.out.println("Masukkan Nama Mahasiswa 3       : ");
+        System.out.print("Masukkan Nama Mahasiswa 3       : ");
         mhs3.nama = in.next();
-        System.out.println("Masukkan Nim Mahasiswa  3       : ");
-        mhs3.nim = in.nextLine();
-        System.out.println("Masukkan Jurusan Mahasiswa 3    : ");
-        mhs3.jurusan = in.nextLine();
-        System.out.println("Masukkan Kode Jurusan           : ");
+        String vv=in.nextLine();
+        System.out.print("Masukkan Nim Mahasiswa  3       : ");
+        mhs3.nim = in.next();
+        System.out.print("Masukkan Jurusan Mahasiswa 3    : ");
+        mhs3.jurusan = in.next();
+        System.out.print("Masukkan Kode Jurusan           : ");
         int zk = in.nextInt();
-        System.out.println("Masukkan IPK mahasiswa 3        : ");
-        mhs3.ipk = in.nextInt();
-        System.out.println("Masukkan SKS mahasiswa 3 ingin  :");
+        System.out.print("Masukkan IPK mahasiswa 3        : ");
+        int xo = in.nextInt();
+        System.out.print("Masukkan SKS mahasiswa 3 ingin  :");
         int z = in.nextInt();
         mhs3.Tampil();
         mhs3.kode(zk);
-        mhs3.ipk(xi);
-        mhs3.sks(x);
+        mhs3.ipk(xo);
+        mhs3.sks(z);
     }
 
 }
