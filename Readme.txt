@@ -6,7 +6,7 @@ pastikan ketika upload tugas dilakukan secara bertahap.karna mempengaruhi nilai
 baca ketentuan umum pengumpulan tugas [disini](https://www.github.com/PrakPL-SI-H/KetentuanUmum.git);
 
 
-Nama	: <<Istighfarin Bahtiar Amry>>
+Nama	: <<Istighfarin Bahtiar Amry>>tes
 
 NIM 	: <<155150401111129>>
 
