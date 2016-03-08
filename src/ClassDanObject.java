@@ -62,7 +62,7 @@ public class ClassDanObject {
         
         Mahasiswa m2 = new Mahasiswa();
         System.out.print("Input Nama: ");
-        m2.nama = in.nextLine();
+        m2.nama = in.next();
         System.out.print("Input NIM: ");
         m2.nim = in.next();
         System.out.print("Input Jurusan: ");
@@ -89,7 +89,7 @@ public class ClassDanObject {
         
         Mahasiswa m3 = new Mahasiswa();
         System.out.print("Input Nama: ");
-        m3.nama = in.nextLine();
+        m3.nama = in.next();
         System.out.print("Input NIM: ");
         m3.nim = in.next();
         System.out.print("Input Jurusan: ");
