@@ -26,6 +26,37 @@ public class MainSIAM {
         System.out.println("Masukkan Jurusan Anda : ");
         mhs.jurusan = in.next();
         
+        mhs.mataKuliah();
+        
+        int pilihan;
+        System.out.print("Masukkan Kode Mata Kuliah : ");
+        pilihan = in.nextInt();
+        switch(pilihan){
+            case 1 :
+                System.out.println("Mata Kuliah : Bahasa Indonesia");
+                System.out.println("Jumlah SKS : 3");
+                break;
+            case 2 :
+                System.out.println("Mata Kuliah : Sistem Fungsional Bisnis");
+                System.out.println("Jumlah SKS : 4");
+                break;
+            case 3 : 
+                System.out.println("Mata Kuliah : Sistem Operasi");
+                System.out.println("Jumlah SKS : 3");
+                break;
+            case 4 : 
+                System.out.println("Mata Kuliah : Pemrograman Lanjut");
+                System.out.println("Jumlah SKS : 5");
+                break;
+            case 5 :
+                System.out.println("Mata Kuliah : Interaksi Manusia dan Komputer");
+                System.out.println("Jumlah SKS : 3");
+                break;
+            default:
+                System.out.println("Masukkan kode mata kuliah dengan benar");
+        }
+        
+        System.out.println("===============================");
         mhs.tampilkan();
         System.out.println(+mhs.ipk());
         
