@@ -29,6 +29,7 @@ public class Mahasiswa {
     }
     
     public void mataKuliah(){
+        System.out.println("");
         System.out.println("      Mata Kuliah          | Kode Mata Kuliah |");
         System.out.println("1. Bahasa Indonesia        |         1        |");
         System.out.println("2. Sistem Fungsional Bisnis|         2        |");
