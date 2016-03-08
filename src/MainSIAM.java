@@ -26,8 +26,8 @@ public class MainSIAM {
         System.out.println("Masukkan Jurusan Anda : ");
         mhs.jurusan = in.next();
         
-        
-        
+        mhs.tampilkan();
+        System.out.println(+mhs.ipk());
         
         
         
