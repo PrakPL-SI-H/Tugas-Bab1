@@ -24,3 +24,23 @@ public class tugas1 {
         matkul = e;
         kode = f;
     }
+
+public void setNilai(double g, int h) {
+        IP = g;
+        sks = h;
+        if (g >= 3 && h >= 22) {
+            System.out.println("Data Tersimpan");
+        } else if (g >= 2.5 && h <= 19) {
+            System.out.println("Data Tersimpan");
+        } else if (g >= 2 && h <= 16) {
+            System.out.println("Data Tersimpan");
+        } else if (g >= 1.5 && h <= 12) {
+            System.out.println("Data Tersimpan");
+        } else if (g < 1.5 && h < 12) {
+            System.out.println("Data Tersimpan");
+        } else {
+            System.out.println("Data yang anda input tidak valid");
+        }
+    }
+
+}
