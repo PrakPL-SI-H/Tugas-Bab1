@@ -26,8 +26,6 @@ public class MainSiam {
         System.out.println("===================");
         ayo.displayMessage();
         System.out.println("===================");
-        ayo.jumlahSks();
-        System.out.println("===================");
         ayo.krs();
         System.out.println("===================");
         
