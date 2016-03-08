@@ -59,6 +59,13 @@ public class LatihanBab1 {
              System.out.print("Masukkan Kode          : ");
              sistem.kodeMatkul = input.next();
              sistem.setMatkul(sistem.matkul, sistem.kodeMatkul);}
+            
+            System.out.print("Masukan IP              : ");
+            sistem.IP = input.nextDouble();
+            System.out.print("Masukan SKS             : ");
+            sistem.SKS = input.nextDouble();
+            sistem.setIP(sistem.IP, sistem.SKS);
+            
         
     }
     
