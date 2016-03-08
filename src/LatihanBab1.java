@@ -65,6 +65,33 @@ public class LatihanBab1 {
             System.out.print("Masukan SKS             : ");
             sistem.SKS = input.nextDouble();
             sistem.setIP(sistem.IP, sistem.SKS);
+        
+        SIAM sistem1 = new SIAM();
+        
+            System.out.println("==SISTEM INFORMASI AKADEMIK MAHASISWA==");
+            System.out.print("Masukkan Nama Mahasiswa: ");
+            sistem1.nama = input.next();
+            System.out.print("Masukkan NIM           : ");
+            sistem1.nim = input.next();
+            System.out.print("Masukkan Jurusan       : ");
+            sistem1.jurusan = input.next();
+            sistem1.setData(sistem1.nama, sistem1.nim,  sistem1.jurusan);
+        
+            System.out.println("=======================================");
+            System.out.print("Masukkan Jumlah Mata Kuliah: ");
+            jml = input.nextInt();
+            for (int i = 0 ; i<jml ; i++){
+             System.out.print("Masukkan Mata Kuliah   : ");
+             sistem1.matkul = input.next();
+             System.out.print("Masukkan Kode          : ");
+             sistem1.kodeMatkul = input.next();
+             sistem1.setMatkul(sistem1.matkul, sistem1.kodeMatkul);}
+            
+            System.out.print("Masukan IP              : ");
+            sistem1.IP = input.nextDouble();
+            System.out.print("Masukan SKS             : ");
+            sistem1.SKS = input.nextDouble();
+            sistem1.setIP(sistem1.IP, sistem1.SKS);
             
         
     }
