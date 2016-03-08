@@ -1,16 +1,4 @@
-
 import java.util.Scanner;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Prasetyo
- */
 public class Siam {
 
 public String nama;
@@ -21,10 +9,8 @@ public String matkul;
 public int sks;
 public int krs;
 public int mk;
-int barisan[];
+int mt[];
 int panjang;
-
-
 Scanner in = new Scanner(System.in);
     private int pilih;
 
@@ -44,7 +30,7 @@ public void displayMessage(){
         System.out.println("Jurusan = "+jurusan);
         System.out.println("ipk     = "+ipk);
     }
-public void jumlahSks(){
+    public void jumlahSks(){
     if (ipk > 3.5)
         System.out.println("24-22 sks");
     else if (ipk < 3.5)
@@ -57,26 +43,28 @@ public void jumlahSks(){
         System.out.println("12 sks");
     }
     public void cetak() {
-        for (int i = 0; i < barisan.length; i++) {
-            System.out.println("Matkul ke-" + (i+1) + " = "+ barisan[i]);
+        for (int i = 0; i < mt.length; i++) {
+            System.out.println("Matkul ke-" + (i+1) + " = "+ mt[i]);
         }
     }
     public void mk(){
         if (mk == 01)
-            System.out.println("Pemrograman Lanjut");
+            System.out.println("Sks yang dipilih Pemrograman Lanjut");
         else if (mk == 02)
-            System.out.println("Sistem Operasi");
+            System.out.println("Sks yang dipilih Sistem Operasi");
         else if (mk == 03)
-            System.out.println("Interaksi Manusia dan komputer");
+            System.out.println("Sks yang dipilih Interaksi Manusia dan komputer");
         else if (mk == 04)
-            System.out.println("Bahasa Indonesia");
+            System.out.println("Sks yang dipilih Bahasa Indonesia");
         else if (mk == 05)
-            System.out.println("Sistem fungsional bisnis");
+            System.out.println("Sks yang dipilih Sistem fungsional bisnis");
         else if (mk == 06)
-            System.out.println("Matematika komputasi lanjut");
+            System.out.println("Sks yang dipilih Matematika komputasi lanjut");
         else
             System.out.println("angka yang anda masukkan Salah");
+        
     }
+    
             
     public void krs(){
     do{
@@ -100,7 +88,7 @@ public void jumlahSks(){
                  System.out.println("4.Bahasa Indonesia                 3    04");
                  System.out.println("5.Sistem fungsional bisnis         4    05");
                  System.out.println("6.Matematika komputasi lanjut      5    06");
-                 System.out.println("Masukkan banyak = ");
+                 System.out.print("Masukkan kode mata kuliah = ");
                  mk = in.nextInt();
                  break;
         case 3 : System.out.println("Cetak Krs");
@@ -113,6 +101,6 @@ public void jumlahSks(){
                 System.out.println("Maaf, Pilihan Tidak Tersedia");
         }
     }while(pilih  !=0);
-        System.out.println("Terima kasih");
+        System.out.println("Terima kasih sudah mencoba");
     }   
 }
