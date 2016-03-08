@@ -1,4 +1,4 @@
-package Modul1_Bab1;
+package MuhAsdar;
 
 import java.util.Scanner;
 
