@@ -104,12 +104,30 @@ public class SIAM {
         int xi = in.nextInt();
         System.out.println("Masukkan SKS mahasiswa 1 ingin  :");
         int x = in.nextInt();
-        mhs3.Tampil();
+        mhs1.Tampil();
         mhs1.kode(xk);
         mhs1.ipk(xi);
         mhs1.sks(x);
 
-        
+        System.out.println();
+
+        System.out.println("Masukkan Nama Mahasiswa 2       : ");
+        mhs2.nama = in.next();
+        System.out.println("Masukkan Nim Mahasiswa  2       : ");
+        mhs2.nim = in.nextLine();
+        System.out.println("Masukkan Jurusan Mahasiswa 2    : ");
+        mhs2.jurusan = in.nextLine();
+        System.out.println("Masukkan Kode Jurusan           : ");
+        int yk = in.nextInt();
+        System.out.println("Masukkan IPK mahasiswa 2        : ");
+        mhs2.ipk = in.nextInt();
+        System.out.println("Masukkan SKS mahasiswa 2 ingin  :");
+        int y = in.nextInt();
+        mhs2.Tampil();
+        mhs2.kode(yk);
+        mhs2.ipk(xi);
+        mhs2.sks(x);
+
         System.out.println("Masukkan Nama Mahasiswa 3       : ");
         mhs3.nama = in.next();
         System.out.println("Masukkan Nim Mahasiswa  3       : ");
