@@ -4,10 +4,10 @@ public class MainSIAM {
     
     public static void main(String[]args){
         
-        String nim;
-        int passwd;
+        String ulang;
         Scanner in = new Scanner(System.in);
         
+        do{
         System.out.println("===============================");
         System.out.println("        SISTEM INFORMASI"       );
         System.out.println("       AKADEMIK MAHASISWA"      );
@@ -60,7 +60,8 @@ public class MainSIAM {
         mhs.tampilkan();
         System.out.println(+mhs.ipk());
         
-        
-        
+            System.out.println("Apakah anda ingin mengulang?(y/n)");
+            ulang = in.next();
+        }while(ulang != "y" || ulang != "Y");
     }
 }
