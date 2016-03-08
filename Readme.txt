@@ -6,8 +6,8 @@ pastikan ketika upload tugas dilakukan secara bertahap.karna mempengaruhi nilai
 baca ketentuan umum pengumpulan tugas [disini](https://www.github.com/PrakPL-SI-H/KetentuanUmum.git);
 
 
-Nama	: <<isi disini>>
+Nama	: Tri Andre Mahadika Putra
 
-NIM 	: <<isi disini>>
+NIM 	: 155150401111136
 
-KELAS   : <<isi disini>>
+KELAS   : SI-H
