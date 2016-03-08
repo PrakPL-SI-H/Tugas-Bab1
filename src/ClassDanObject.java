@@ -54,7 +54,7 @@ public class ClassDanObject {
             m1.sksmatkul[i] = in.nextInt();
             m1.totalsks += m1.sksmatkul[i];
             if (m1.totalsks >= m1.min && m1.totalsks <= m1.max) {
-                break;
+                i=5;
             }
         }
         System.out.println("Data telah disimpan Terima kasih...");
@@ -81,7 +81,7 @@ public class ClassDanObject {
             m2.sksmatkul[i] = in.nextInt();
             m2.totalsks += m2.sksmatkul[i];
             if (m2.totalsks >= m2.min && m2.totalsks <= m2.max) {
-                break;
+                i=5;
             }
         }
         System.out.println("Data telah disimpan Terima kasih...");
@@ -108,7 +108,7 @@ public class ClassDanObject {
             m3.sksmatkul[i] = in.nextInt();
             m3.totalsks += m3.sksmatkul[i];
             if (m3.totalsks >= m3.min && m3.totalsks <= m3.max) {
-                break;
+                i=5;
             }
         }
         System.out.println("Data telah disimpan Terima kasih...");
