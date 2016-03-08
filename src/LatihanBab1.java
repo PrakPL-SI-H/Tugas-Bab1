@@ -54,11 +54,11 @@ public class LatihanBab1 {
             System.out.print("Masukkan Jumlah Mata Kuliah: ");
             int jml = input.nextInt();
             for (int i = 0 ; i<jml ; i++){
-             System.out.print("Masukkan Mata Kuliah   : ");
-             sistem.matkul = input.next();
-             System.out.print("Masukkan Kode          : ");
-             sistem.kodeMatkul = input.next();
-             sistem.setMatkul(sistem.matkul, sistem.kodeMatkul);}
+              System.out.print("Masukkan Mata Kuliah   : ");
+              sistem.matkul = input.next();
+              System.out.print("Masukkan Kode          : ");
+              sistem.kodeMatkul = input.next();
+              sistem.setMatkul(sistem.matkul, sistem.kodeMatkul);}
             
             System.out.print("Masukan IP              : ");
             sistem.IP = input.nextDouble();
@@ -81,11 +81,11 @@ public class LatihanBab1 {
             System.out.print("Masukkan Jumlah Mata Kuliah: ");
             jml = input.nextInt();
             for (int i = 0 ; i<jml ; i++){
-             System.out.print("Masukkan Mata Kuliah   : ");
-             sistem1.matkul = input.next();
-             System.out.print("Masukkan Kode          : ");
-             sistem1.kodeMatkul = input.next();
-             sistem1.setMatkul(sistem1.matkul, sistem1.kodeMatkul);}
+              System.out.print("Masukkan Mata Kuliah   : ");
+              sistem1.matkul = input.next();
+              System.out.print("Masukkan Kode          : ");
+              sistem1.kodeMatkul = input.next();
+              sistem1.setMatkul(sistem1.matkul, sistem1.kodeMatkul);}
             
             System.out.print("Masukan IP              : ");
             sistem1.IP = input.nextDouble();
@@ -108,19 +108,16 @@ public class LatihanBab1 {
             System.out.print("Masukkan Jumlah Mata Kuliah: ");
             jml = input.nextInt();
             for (int i = 0 ; i<jml ; i++){
-             System.out.print("Masukkan Mata Kuliah   : ");
-             sistem2.matkul = input.next();
-             System.out.print("Masukkan Kode          : ");
-             sistem2.kodeMatkul = input.next();
-             sistem2.setMatkul(sistem2.matkul, sistem2.kodeMatkul);}
+              System.out.print("Masukkan Mata Kuliah   : ");
+              sistem2.matkul = input.next();
+              System.out.print("Masukkan Kode          : ");
+              sistem2.kodeMatkul = input.next();
+              sistem2.setMatkul(sistem2.matkul, sistem2.kodeMatkul);}
             
             System.out.print("Masukan IP              : ");
             sistem2.IP = input.nextDouble();
             System.out.print("Masukan SKS             : ");
             sistem2.SKS = input.nextDouble();
-            sistem2.setIP(sistem2.IP, sistem2.SKS);
-            
-        
-    }
-   
+            sistem2.setIP(sistem2.IP, sistem2.SKS);    
+    } 
 }
