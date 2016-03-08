@@ -2,7 +2,7 @@ package MuhAsdar;
 
 public class MataKuliah {
 
-    String matkulambil [];
+    String matkulambil [] = new String [5];
     float ip;
     int bebansks[] = new int[2];
     int sksambil = 0;
@@ -11,13 +11,13 @@ public class MataKuliah {
     {"SO", "Sistem Operasi"},
     {"SFB", "Sistem Fungsional Bisnis"},
     {"BI", "Bahasa Indo"}};
-    int sksmatkul[] = {5, 3, 4, 4, 3};
+    int sksmatkul[] = {6, 4, 5, 5, 4};
 
     public void daftarMatkul() {
         System.out.println("\t Daftar Mata Kuliah");
-        System.out.println("No  Kode   Nama Mata Kuliah\t\t SKS");
+        System.out.println("No Kode  Nama Mata Kuliah\t\tSKS");
         for (int i = 0; i < matkul.length; i++) {
-            System.out.printf((i + 1) + "   %-7s%-30s %s\n", matkul[i][0], matkul[i][1], matkul[i][2]);
+            System.out.printf("%-3d%-6s%-30s  %d\n",(i+1), matkul[i][0], matkul[i][1], sksmatkul[i]);
         }
     }
 
@@ -25,7 +25,6 @@ public class MataKuliah {
         if (ip >= 3.00) {
             bebansks[0] = 22;
             bebansks[1] = 24;
-            System.out.println("");
         } else if (ip >= 2.50) {
             bebansks[0] = 19;
             bebansks[1] = 21;
@@ -42,7 +41,6 @@ public class MataKuliah {
     }
     
     public void pilihMatkul(String kode, int i) {
-            System.out.println("Masukan Kode Matkul " + i + " = ");
             matkulambil [i] = kode;
         }
     }
