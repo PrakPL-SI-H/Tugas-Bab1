@@ -28,16 +28,17 @@ public class siam1 {
                 System.out.println("1.  PTI15002 Pengantar Teknologi Informasi dan Ilmu Komputer : 3   SKS");
                 System.out.println("2.  PTI15004 Matematika Komputasi                            : 4   SKS");
                 System.out.println("3.  PTI15001 Pemrograman Dasar                               : 5   SKS");
-                System.out.println("4.  KOM15002 Sistem Digital                                  : 4   SKS");
+                System.out.println("4.  SIF15021 Manajemen Dan Organisasi                        : 3   SKS");
                 System.out.println("5.  UNG4008  Bahasa Indonesia                                : 3   SKS");
                 System.out.println("6.  IFK15002 Pemrograman Lanjut                              : 5   SKS");
-                System.out.println("7.  IFK15001 Matematika Komputasi Lanjut                     : 4   SKS");
+                System.out.println("7.  SIF15103 Sistem Fungsional Bisnis                        : 4   SKS");
                 System.out.println("8.  UBU0008  Bahasa Inggris                                  : 3   SKS");
-                System.out.println("9.  KOM15003 Arsitektur dan Organisasi Komputer              : 3   SKS");
-                System.out.println("10. PTI15006 Probabilitas & Statistika                       : 4   SKS");
+                System.out.println("9.  PTI15005 Interaksi Manusia Dan Komputer                  : 3   SKS");
+                System.out.println("10. PTI15008 Sistem Operasi                                  : 4   SKS");
                 System.out.print("Masukkan Kode Mata Kuliah (1-10) : ");
                 kodeMatkul = in.nextLine();
-                System.out.print("Masukkan Nama Mata Kuliah : ");
+                System.out.print("Masukkan N"
+                        + "ama Mata Kuliah : ");
                 namaMatkul = in.nextLine();
                 System.out.print("Masukkan SKS Mata Kuliah : ");
                 sks = in.nextInt();
