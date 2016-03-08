@@ -77,7 +77,7 @@ public class ClassDanObject {
             m2.kode[i] = in.next();
             System.out.print("SKS Matkul: ");
             m2.sksmatkul[i] = in.nextInt();
-            m2.totalsks = m1.totalsks + m2.sksmatkul[i];
+            m2.totalsks = m2.totalsks + m2.sksmatkul[i];
             if (m2.totalsks >= m2.min && m2.totalsks <= m2.max) {
                 i=5;
             }
@@ -103,7 +103,7 @@ public class ClassDanObject {
             m3.kode[i] = in.next();
             System.out.print("SKS Matkul: ");
             m3.sksmatkul[i] = in.nextInt();
-            m3.totalsks = m1.totalsks + m3.sksmatkul[i];
+            m3.totalsks = m3.totalsks + m3.sksmatkul[i];
             if (m3.totalsks >= m3.min && m3.totalsks <= m3.max) {
                 i=5;
             }
