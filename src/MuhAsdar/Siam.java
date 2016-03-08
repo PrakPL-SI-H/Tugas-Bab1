@@ -7,19 +7,24 @@ public class Siam {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         DataMahasiswa mhs = new DataMahasiswa();
-
+        boolean user = false;
+        do{
         System.out.println("SISTEM INFORMASI AKADEMIK MAHASISWA SISTEM INFORMASI");
         System.out.print("Username (NIM) = ");
         mhs.username = in.next();
-        System.out.print("Password       = "); 
+        System.out.print("Password       = ");
         String pass = in.next(); //nim
-
         for (int i = 0; i < mhs.mhs.length; i++) {
             if ((mhs.username.equals(mhs.mhs[i][1]) && pass.equals(mhs.mhs[i][1]))) {
                 System.out.println("=======================================");
                 mhs.showData();
+                user = true;
+            } else {
+                System.out.println("Data tidak ditemukan");
+                break;
             }
         }
+        }while (user != true );
 
         int pilihan;
         String batas = ("----------------------------------------------------");
@@ -43,6 +48,7 @@ public class Siam {
                     System.out.printf("%.40s\n", batas);
                     mhs.krsmhs.daftarMatkul();
                     System.out.printf("%.40s\n", batas);
+                    System.out.println("SKS yang dapat di ambil = " + mhs.krsmhs.bebansks[0] + "-" + mhs.krsmhs.bebansks[1]);
                     int a = 1;
                     while (mhs.krsmhs.sksambil <= mhs.krsmhs.bebansks[1] || a <= 5) {
                         System.out.print("Masukan Kode Mata Kuliah " + a + " = ");
@@ -53,8 +59,9 @@ public class Siam {
                                 mhs.krsmhs.sksambil += mhs.krsmhs.sksmatkul[i];
                             }
                         }
-                        if (a == 5)
+                        if (a == 5) {
                             break;
+                        }
                         if (mhs.krsmhs.sksambil >= mhs.krsmhs.bebansks[0]) {
                             System.out.println("Tambah Mata Kuliah? (y/n) ");
                             String pilih = in.next();
