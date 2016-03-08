@@ -5,6 +5,7 @@ public class Mobil {
     private String manufaktur;
     private int kecepatan;
     private double waktu;
+    private double second;
 
     public void setNoPlat(String s) {
         noPlat = s;
@@ -30,5 +31,11 @@ public class Mobil {
     }
     public void setWaktu(double jam){
         waktu = jam;
+        rubahSekon (jam);
+    }
+    private void rubahSekon(double jam){
+        second = waktu*3600;
     }
 }
+
+
