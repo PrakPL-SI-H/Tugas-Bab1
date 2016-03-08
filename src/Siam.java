@@ -13,29 +13,13 @@ public class Siam {
     int kodematkul[] = new int[99];
     String namamatkul[] = new String[99];
     int jmlhsks[] = new int[99];
-    String ceknamamhs;
-    String ceknimmhs;
-
-    void daftarSiam(int i, String namamhs, String nimmhs, double ip, String jurusan) {
-        this.namamhs[i] = namamhs;
-        this.nimmhs[i] = nimmhs;
-        this.ip[i] = ip;
-        this.jurusan[i] = jurusan;
-        
-    }
-
-    void loginSiam(int i, int kodematkul, String namamatkul, int jmlhsks) {
-        this.kodematkul[i] = kodematkul;
-        this.namamatkul[i] = namamatkul;
-        this.jmlhsks[i] = jmlhsks;
-    }
 
     void cetakSiam(int a) {
         this.i = a;
         System.out.println("");
         System.out.println("DATA MAHASISWA");
         System.out.println("Nama : " + namamhs[i]);
-        System.out.println("NiIM : " + nimmhs[i]);
+        System.out.println("NIM : " + nimmhs[i]);
         System.out.println("IP : " + ip[i]);
         System.out.println("Jurusan : " + jurusan[i]);
         System.out.println("Kode matkul : " + kodematkul[i]);

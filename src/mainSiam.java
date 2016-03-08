@@ -72,7 +72,6 @@ public class mainSiam {
                         if (ceknamamhs.equals(mhs.namamhs[a]) && ceknimmhs.equals(mhs.nimmhs[a])) {
                             mhs.cetakSiam(a);
                         }
-
                     }
                     break;
             }
