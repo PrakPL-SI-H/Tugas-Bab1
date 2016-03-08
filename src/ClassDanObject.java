@@ -5,7 +5,7 @@ class Mahasiswa {
     String matkul[] = new String[5];
     String kode[] = new String[5];
     int sksmatkul[] = new int[5];
-    int totalsks;
+    int totalsks=0;
     double ip;
     int min, max;
     public void rangeSKS() {
@@ -45,14 +45,13 @@ public class ClassDanObject {
         m1.rangeSKS();
         System.out.println("Jumlah SKS yang dapat diambil : " + m1.min + "-" + m1.max + " SKS");
         for (int i = 0; i < 5; i++) {
-            m1.totalsks = 0;
             System.out.print("Input Mata Muliah: ");
             m1.matkul[i] = in.next();
             System.out.print("Kode Matkul: ");
             m1.kode[i] = in.next();
             System.out.print("SKS Matkul: ");
             m1.sksmatkul[i] = in.nextInt();
-            m1.totalsks += m1.sksmatkul[i];
+            m1.totalsks = m1.totalsks + m1.sksmatkul[i];
             if (m1.totalsks >= m1.min && m1.totalsks <= m1.max) {
                 i=5;
             }
@@ -72,14 +71,13 @@ public class ClassDanObject {
         m2.rangeSKS();
         System.out.println("Jumlah SKS yang dapat diambil : " + m2.min + "-" + m2.max + " SKS");
         for (int i = 0; i < 5; i++) {
-            m2.totalsks = 0;
             System.out.print("Input Mata Muliah: ");
             m2.matkul[i] = in.next();
             System.out.print("Kode Matkul: ");
             m2.kode[i] = in.next();
             System.out.print("SKS Matkul: ");
             m2.sksmatkul[i] = in.nextInt();
-            m2.totalsks += m2.sksmatkul[i];
+            m2.totalsks = m1.totalsks + m2.sksmatkul[i];
             if (m2.totalsks >= m2.min && m2.totalsks <= m2.max) {
                 i=5;
             }
@@ -99,14 +97,13 @@ public class ClassDanObject {
         m3.rangeSKS();
         System.out.println("Jumlah SKS yang dapat diambil : " + m3.min + "-" + m3.max + " SKS");
         for (int i = 0; i < 5; i++) {
-            m3.totalsks = 0;
             System.out.print("Input Mata Muliah: ");
             m3.matkul[i] = in.next();
             System.out.print("Kode Matkul: ");
             m3.kode[i] = in.next();
             System.out.print("SKS Matkul: ");
             m3.sksmatkul[i] = in.nextInt();
-            m3.totalsks += m3.sksmatkul[i];
+            m3.totalsks = m1.totalsks + m3.sksmatkul[i];
             if (m3.totalsks >= m3.min && m3.totalsks <= m3.max) {
                 i=5;
             }
