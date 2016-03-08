@@ -83,7 +83,15 @@ public class SIAM {
         Mahasiswa mhs2 = new Mahasiswa();
         Mahasiswa mhs3 = new Mahasiswa();
 
-        
+        System.out.println("||SELAMAT DATANG DI SISTEM AKADEMIK PTIIK||");
+        System.out.println("||=======================================||");
+        System.out.println("        LIST SKS DENGAN SYARAT IPK : ");
+        System.out.println("         IPK                SKS\n"
+                + "    >=3.00	        22 - 24 sks\n"
+                + "     2.50 - 2.99	19 - 21 sks\n"
+                + "     2.00 - 2.49	16 - 18 sks\n"
+                + "     1.50 - 1.99	12 - 15 sks\n"
+                + "     <1.50	        < 12    sks");
         System.out.println("Masukkan Nama Mahasiswa 1       : ");
         mhs1.nama = in.nextLine();
         System.out.println("Masukkan Nim Mahasiswa  1       : ");
@@ -101,25 +109,7 @@ public class SIAM {
         mhs1.ipk(xi);
         mhs1.sks(x);
 
-        System.out.println();
-
-        System.out.println("Masukkan Nama Mahasiswa 2       : ");
-        mhs2.nama = in.next();
-        System.out.println("Masukkan Nim Mahasiswa  2       : ");
-        mhs2.nim = in.nextLine();
-        System.out.println("Masukkan Jurusan Mahasiswa 2    : ");
-        mhs2.jurusan = in.nextLine();
-        System.out.println("Masukkan Kode Jurusan           : ");
-        int yk = in.nextInt();
-        System.out.println("Masukkan IPK mahasiswa 2        : ");
-        mhs2.ipk = in.nextInt();
-        System.out.println("Masukkan SKS mahasiswa 2 ingin  :");
-        int y = in.nextInt();
-        mhs3.Tampil();
-        mhs2.kode(yk);
-        mhs2.ipk(xi);
-        mhs2.sks(x);
-
+        
         System.out.println("Masukkan Nama Mahasiswa 3       : ");
         mhs3.nama = in.next();
         System.out.println("Masukkan Nim Mahasiswa  3       : ");
