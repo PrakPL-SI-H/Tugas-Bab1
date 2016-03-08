@@ -6,8 +6,8 @@ pastikan ketika upload tugas dilakukan secara bertahap.karna mempengaruhi nilai
 baca ketentuan umum pengumpulan tugas [disini](https://www.github.com/PrakPL-SI-H/KetentuanUmum.git);
 
 
-Nama	: <<Sofyan Bagus Arieyanto>>
+Nama	: Sofyan Bagus Arieyanto
 
-NIM 	: <<155150401111126>>
+NIM 	: 155150401111126
 
-KELAS   : <<SI-H>>
+KELAS   : SI-H
