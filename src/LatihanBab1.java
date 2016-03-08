@@ -50,6 +50,15 @@ public class LatihanBab1 {
             sistem.jurusan = input.next();
             sistem.setData(sistem.nama, sistem.nim,  sistem.jurusan);
         
+            System.out.println("=======================================");
+            System.out.print("Masukkan Jumlah Mata Kuliah: ");
+            int jml = input.nextInt();
+            for (int i = 0 ; i<jml ; i++){
+             System.out.print("Masukkan Mata Kuliah   : ");
+             sistem.matkul = input.next();
+             System.out.print("Masukkan Kode          : ");
+             sistem.kodeMatkul = input.next();
+             sistem.setMatkul(sistem.matkul, sistem.kodeMatkul);}
         
     }
     
