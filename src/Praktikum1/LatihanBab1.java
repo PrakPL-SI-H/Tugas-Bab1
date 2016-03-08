@@ -27,7 +27,6 @@ public class LatihanBab1 {
                     mhs.jurusan = in.next();
                     System.out.print("IPK           : ");
                     mhs.ipk = in.nextDouble();
-                    mhs.printData();
                     break;
                 case 2:
                     System.out.println("Input Data KRS");
@@ -36,7 +35,7 @@ public class LatihanBab1 {
                     System.out.print("Matkul        : ");
                     mhs.matkul = in.next();
                     System.out.print("SKS           : ");
-                    mhs.sks = in.nextInt();
+                    mhs.setSks(in.nextInt());
                     break;
                 case 3:
                     System.out.println("KRS Mahasiswa");
