@@ -21,7 +21,7 @@ public class DataMahasiswa {
     }
 
     public void showKrs() {
-        System.out.println("\tKaertu Rencana Studi");
+        System.out.println("\tKartu Rencana Studi");
         System.out.println("No  Kode   Nama Mata Kuliah\t\t SKS");
         for (int i = 0; i < krsmhs.matkulambil.length; i++) {
             if (krsmhs.banyakmatkul == i) {
