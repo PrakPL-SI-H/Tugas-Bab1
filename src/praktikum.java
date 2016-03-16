@@ -55,8 +55,7 @@ public class praktikum {
         else if (ip < 1.50) {
             jumlahSks = "kurang dari 12";
         }
-    }
-    
+    } 
     public void displayData () {
         System.out.println("========DATA MAHASISWA========");
         System.out.println("Nama mahasiswa  :" + nama);
