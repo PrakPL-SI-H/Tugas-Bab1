@@ -1,10 +1,10 @@
 
 import java.util.Scanner;
 
-public class ClassDanObject {
+public class MainSIAM {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Mahasiswa m1 = new Mahasiswa();
+        SIAM m1 = new SIAM();
         System.out.print("Input Nama: ");
         m1.nama = in.nextLine();
         System.out.print("Input NIM: ");
@@ -30,7 +30,7 @@ public class ClassDanObject {
         System.out.println("Data telah disimpan Terima kasih...");
         m1.cetakData();
         
-        Mahasiswa m2 = new Mahasiswa();
+        SIAM m2 = new SIAM();
         System.out.print("Input Nama: ");
         m2.nama = in.next();
         System.out.print("Input NIM: ");
@@ -56,7 +56,7 @@ public class ClassDanObject {
         System.out.println("Data telah disimpan Terima kasih...");
         m2.cetakData();
         
-        Mahasiswa m3 = new Mahasiswa();
+        SIAM m3 = new SIAM();
         System.out.print("Input Nama: ");
         m3.nama = in.next();
         System.out.print("Input NIM: ");

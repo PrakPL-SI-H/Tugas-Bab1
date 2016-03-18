@@ -1,6 +1,6 @@
 
 
-public class Mahasiswa {
+public class SIAM {
     String nama, nim, jur;
     String matkul[] = new String[5];
     String kode[] = new String[5];
